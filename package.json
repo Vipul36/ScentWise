@@ -1,0 +1,21 @@
+{
+  "name": "scentwise",
+  "version": "1.0.0",
+  "description": "ScentWise — AI-Powered Personalized Perfume Discovery & Analytics Platform",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start": "npm run start --workspaces",
+    "dev": "npm run dev --workspaces",
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "db:setup": "createdb scentwise || true",
+    "db:migrate": "npm run migrate --prefix server",
+    "db:seed": "npm run seed --prefix server",
+    "data:generate": "npm run seed:generate --prefix server",
+    "data:clean": "npm run clean-data --prefix server",
+    "test": "npm test --prefix server"
+  }
+}
