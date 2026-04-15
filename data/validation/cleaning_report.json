@@ -1,0 +1,33 @@
+{
+  "perfumes": {
+    "total": 800,
+    "cleaned": 800,
+    "removed": 0,
+    "issues": []
+  },
+  "users": {
+    "total": 200,
+    "cleaned": 200,
+    "removed": 0,
+    "issues": []
+  },
+  "interactions": {
+    "total": 3000,
+    "cleaned": 3000,
+    "removed": 0,
+    "issues": []
+  },
+  "reviews": {
+    "total": 500,
+    "cleaned": 500,
+    "removed": 0,
+    "issues": []
+  },
+  "notes": {
+    "total": 94,
+    "cleaned": 94,
+    "issues": []
+  },
+  "duration_ms": 9,
+  "timestamp": "2026-09-26T07:51:24.810Z"
+}
